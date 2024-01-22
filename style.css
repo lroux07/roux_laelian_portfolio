@@ -236,3 +236,27 @@ li {
         margin: 10% 0;
     }
 }
+
+
+/* VIEW DESKTOP */
+@media screen and (min-width: 768px) {
+    ul {
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3rem;
+    }
+
+    li h2 {
+        display: flex;
+        text-align: start;
+        margin: 10% 0;
+        font-size: 1.5rem;
+    }
+
+    li p {
+        display: flex;
+        text-align: start;
+        margin: 10% 0;
+    }
+}
