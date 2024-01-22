@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Space Grotesk Bold';
+    src: url(/assets/fonts/static/SpaceGrotesk-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Space Grotesk Medium';
+    src: url(/assets/fonts/static/SpaceGrotesk-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk';
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    background-color: #151515;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    margin: 10%;
+    font-size: 2rem;
+}
+
+li {
+    margin: 0 18px;
+}
+
+/* PROFILE */
+.profile {
+    position: relative;
+    bottom: 20%;
+    width: 70%;
+}
+
+.rings {
+    position: absolute;
+    bottom: 65%;
+    right: 60%;
+}
+
+.circle {
+    position: absolute;
+    bottom: 42%;
+    left: 85%;
+}
+
+/* PRESENTATION */
+h2 {
+    font-size: 2.5rem;
+    margin: -20% 3%;
+    font-family: 'Space Grotesk Bold';
+}
+span {
+    text-decoration: underline #4EE1A0;
+}
+
+p {
+    margin: 25% 6%;
+    color: #D9D9D9;
+    font-size: 1rem;
+}
+
+.contact {
+    margin-top: -20%;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Space Grotesk Bold';
+    text-decoration: underline #4EE1A0;
+}
+
+hr {
+    width: 90%;
+    margin-bottom: 15%;
+}
