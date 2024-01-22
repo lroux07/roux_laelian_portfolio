@@ -51,7 +51,7 @@ nav {
     align-items: center;
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
 }
@@ -61,7 +61,7 @@ h1 {
     font-size: 2rem;
 }
 
-li {
+nav li {
     margin: 0 18px;
 }
 
@@ -109,7 +109,18 @@ p {
     text-decoration: underline #4EE1A0;
 }
 
+/* SEPARATION */
 hr {
     width: 90%;
     margin-bottom: 15%;
+}
+
+/* MAIN */
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    margin: 10% 0 0 0;
 }
