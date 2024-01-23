@@ -79,9 +79,9 @@ nav li {
 }
 
 .circle {
-    position: absolute;
+    position: relative;
     bottom: 42%;
-    left: 85%;
+    left: 50%;
 }
 
 /* PRESENTATION */
@@ -116,12 +116,12 @@ hr {
 }
 
 /* MAIN */
-ul {
+.skills ul {
     display: flex;
     flex-direction: column;
 }
 
-li {
+.skills li {
     margin: 10% 0 0 0;
 }
 
@@ -135,8 +135,10 @@ li {
     header {
         margin-bottom: -10%;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
     }
 
     /* NAVBAR */
@@ -145,17 +147,15 @@ li {
     }
 
     h1 {
-        margin-left: 1%;
+        margin-left: 10%;
     }
 
-    ul {
-        margin-right: 1%;
+    nav ul {
+        margin-left: 50%;
     }
 
-    h2 {
-        text-align: center;
-        margin: 5%;
-        font-size: 3rem;
+    nav ul li {
+        margin-right: 10%;
     }
 
     /* PROFILE */
@@ -171,7 +171,8 @@ li {
     .profile {
         position: relative;
         bottom: 20%;
-        max-width: 40%;
+        max-width: 50%;
+        left: 7%;
     }
 
     .rings {
@@ -183,11 +184,11 @@ li {
     .circle {
         position: absolute;
         bottom: 35%;
-        left: 90%;
+        left: 97%;
     }
 
     h2 {
-        margin: 20% 5%;
+        margin: 20% 0 20% 10%;
         line-height: 3.6rem;
     }
 
@@ -203,6 +204,14 @@ li {
         margin: 20% 10%;
         letter-spacing: 3px;
         font-family: 'Space Grotesk Medium';
+        margin-bottom: 70%;
+    }
+    .contact:hover {
+        display: flex;
+        margin: 20% 10%;
+        letter-spacing: 3px;
+        font-family: 'Space Grotesk Medium';
+        color: #4EE1A0;
     }
 
     hr {
@@ -218,19 +227,19 @@ li {
         text-align: start;
     }
 
-    ul {
+    .skills ul {
         display: grid;
         flex-direction: row;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    li h2 {
+    .skills li h2 {
         display: flex;
         text-align: start;
-        margin: 10% 0;
+        /* margin: 10% 0; */
     }
 
-    li p {
+    .skills li p {
         display: flex;
         text-align: start;
         margin: 10% 0;
@@ -240,12 +249,20 @@ li {
 
 /* VIEW DESKTOP */
 @media screen and (min-width: 768px) {
+    nav ul li {
+        margin: 0px;
+        margin-right: 10%;
+        display: flex;
+        justify-content: end;
+    }
+
     ul {
         display: grid;
         flex-direction: row;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 3rem;
     }
+
 
     li h2 {
         display: flex;
