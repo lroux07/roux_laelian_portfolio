@@ -9,6 +9,7 @@ let btn = document.querySelector("#btn");
 function focusName() {
     if(inputName.value.length >= 1) {
         inputName.style.borderBottom = "2px solid #4EE1A0";
+        inputName.style.color = "white";
     } if(inputName.value == "") {
         inputName.style.borderBottom = "2px solid white";
     }
