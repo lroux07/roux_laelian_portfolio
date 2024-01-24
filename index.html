@@ -12,6 +12,7 @@
     />
 
     <meta name="description" content="Front-end developer portfolio passionate about creating web applications">
+    <link rel="stylesheet" href="style.css">
 
     <title>Single-page developer portfolio</title>
   </head>
@@ -20,6 +21,7 @@
       <!-- NAVBAR -->
       <nav>
         <h1>adamkeyes</h1>
+        <div class="nav"></div>
         <ul>
           <li>
             <a href="">
@@ -55,21 +57,23 @@
         <article>
           <!-- PRESENTATION -->
           <h2 class="title">Nice to meet you! I'm <span>Adam Keyes</span>.</h2>
-          <p>
+          <p class="p-title">
             Based in the UK, I'm a front-end
             developer passionate about building accessible web apps that users love.
           </p>
-          <a href="mailto:test@gmail.com" class="contact">Contact me</a>
+          <a href="#contact" class="contact">Contact me</a>
         </article>
       </section>
     </header>
 
-    <hr>
-
     <!-- MAIN -->
     <main>
-      <section>
-        <article class="skills">
+      <hr>
+
+      <section class="skills">
+        <article>
+          <!-- <div class="separation"></div> -->
+
           <ul>
             <li>
               <h2>HTML</h2>
@@ -106,12 +110,97 @@
 
       <hr>
 
-      <section>
-        <article class="projects">
+      <section class="projects">
+        <article class="projects-title">
+          <h2>Projects</h2>
+          <a href="#contact">Contact me</a>
+        </article>
+
+        <br>
+
+        <article class="presentation">
+          <img src="/assets/images/thumbnail-project-1-small.webp" alt="presentation">
           
+          <h3>Desing Portfolio</h3>
+          <p>HTML CSS</p>
+
+          <a href="https://github.com/" target="_blank">View project</a>
+          <a href="https://www.edenschool.fr/" target="_blank">View code</a>
+        </article>
+
+        <article class="presentation">
+          <img src="/assets/images/thumbnail-project-2-small.webp" alt="presentation">
+          
+          <h3>E-learning landing page</h3>
+          <p>HTML CSS</p>
+
+          <a href="https://github.com/" target="_blank">View project</a>
+          <a href="https://www.edenschool.fr/" target="_blank">View code</a>
+        </article>
+
+        <article class="presentation">
+          <img src="/assets/images/thumbnail-project-3-small.webp" alt="presentation">
+          
+          <h3>Todo web app</h3>
+          <p>HTML CSS</p>
+
+          <a href="https://github.com/" target="_blank">View project</a>
+          <a href="https://www.edenschool.fr/" target="_blank">View code</a>
+        </article>
+
+        <article class="presentation">
+          <img src="/assets/images/thumbnail-project-4-small.webp" alt="presentation">
+          
+          <h3>Entertainment web app</h3>
+          <p>HTML CSS</p>
+
+          <a href="https://github.com/" target="_blank">View project</a>
+          <a href="https://www.edenschool.fr/" target="_blank">View code</a>
+        </article>
+
+        <article class="presentation">
+          <img src="/assets/images/thumbnail-project-5-small.webp" alt="presentation">
+          
+          <h3>Memory game</h3>
+          <p>HTML CSS</p>
+
+          <a href="https://github.com/" target="_blank">View project</a>
+          <a href="https://www.edenschool.fr/" target="_blank">View code</a>
+        </article>
+
+        <article class="presentation">
+          <img src="/assets/images/thumbnail-project-6-small.webp" alt="presentation">
+          
+          <h3>Art gallery showcase</h3>
+          <p>HTML CSS</p>
+
+          <a href="https://github.com/" target="_blank">View project</a>
+          <a href="https://www.edenschool.fr/" target="_blank">View code</a>
         </article>
       </section>
+
+      <section class="formulaire">
+        <h2>Contact</h2>
+        <p class="paragraph-formulaire">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
+        
+        <form action="" method="post" id="contact">
+          <p>
+            <input type="text" placeholder="Name">
+          </p>
+          <p>
+            <input type="text" placeholder="Email">
+          </p>
+          <p>
+            <input type="text" placeholder="Message">
+          </p>
+          <button>Send message</button>
+        </form>
+      </section>
     </main>
+
+    <footer>
+      <!-- adamkeyes -->
+    </footer>
 
     <script type="module" src="/main.js"></script>
   </body>
