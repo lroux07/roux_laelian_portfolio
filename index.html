@@ -183,7 +183,7 @@
         <h2>Contact</h2>
         <p class="paragraph-formulaire">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
         
-        <form action="" method="post" id="contact">
+        <form action="mailto:email@example.com" method="post">
           <p>
             <input type="text" placeholder="Name" id="name">
           </p>
@@ -191,15 +191,38 @@
             <input type="text" placeholder="Email" id="email">
           </p>
           <p>
-            <input type="text" placeholder="Message" id="message">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
           </p>
-          <button>Send message</button>
+          <button id="btn">Send message</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <!-- adamkeyes -->
+      <h2>adamkeyes</h2>
+
+      <ul>
+        <li>
+          <a href="">
+            <img src="/assets/images/icon-github.svg" alt="icon-github">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="/assets/images/icon-custom.svg" alt="icon-custom">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="/assets/images/icon-linkedin.svg" alt="icon-linkedin">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="/assets/images/icon-twitter.svg" alt="icon-twitter">
+          </a>
+        </li>
+      </ul>
     </footer>
 
     <script type="module" src="/main.js"></script>

@@ -226,14 +226,31 @@ input {
     width: 100%;
     background: none;
     border: none;
-    border-bottom: 2px solid #9d9d9d;
+    border-bottom: 2px solid white;
     padding: 0 0 8% 10%;
-    margin-bottom: 2%;
+    margin-top: 15%;
     font-size: 1.2rem;
     text-transform: uppercase;
     color: white;
 }
 input:focus {
+    outline: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+textarea {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 0 0 8% 10%;
+    margin-top: 15%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+}
+textarea:focus {
     outline: none;
     color: white;
     border-bottom: 2px solid white;
@@ -248,7 +265,26 @@ button {
     padding-bottom: 2%;
     font-size: 1.2rem;
     letter-spacing: 2px;
-    margin: 5% 0;
+    margin-top: 5%;
+    margin-bottom: 25%;
+}
+
+footer {
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 20% 0;
+}
+
+footer ul li {
+    margin: 0 8px;
 }
 
 /* VIEW TABLETTE */
