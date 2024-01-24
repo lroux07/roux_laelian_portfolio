@@ -24,15 +24,15 @@ function focusEmail() {
 }
 
 function btnClick() {
-    // if(inputName.value == "" || inputEmail.value == "" && inputName.value.length < 5 || inputEmail.value.length < 5) {
-    //     inputName.style.borderBottom = "2px solid red";
-    //     inputEmail.style.borderBottom = "2px solid red";
-    //     btn.disabled = true;
-    // } else if(inputName.value.length >= 5 || inputEmail.value.length >= 5) {
-    //     btn.disabled = false;
-    //     inputName.style.borderBottom = "2px solid #4EE1A0";
-    //     inputEmail.style.borderBottom = "2px solid #4EE1A0";
-    // }
+    if(inputName.value == "" || inputEmail.value == "" && inputName.value.length < 5 || inputEmail.value.length < 5) {
+        inputName.style.borderBottom = "2px solid red";
+        inputEmail.style.borderBottom = "2px solid red";
+        btn.disabled = true;
+    } else if(inputName.value.length >= 5 || inputEmail.value.length >= 5) {
+        btn.disabled = false;
+        inputName.style.borderBottom = "2px solid #4EE1A0";
+        inputEmail.style.borderBottom = "2px solid #4EE1A0";
+    }
     
     if(inputEmail.value.length == "@" && inputEmail.value == ".fr" || inputEmail.value == ".com") {
         inputEmail.style.borderBottom = "2px solid #4EE1A0";

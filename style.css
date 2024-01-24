@@ -476,6 +476,9 @@ footer ul li {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    .projects a:hover {
+        color: #4EE1A0;
+    }
 
     .presentation img {
         height: 230px;
@@ -485,5 +488,12 @@ footer ul li {
 
     .presentation a:hover {
         color: #4EE1A0;
+    }
+
+
+    
+    button:hover {
+        color: #4EE1A0;
+        cursor: pointer;
     }
 }
