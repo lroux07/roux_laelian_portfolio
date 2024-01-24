@@ -231,6 +231,7 @@ input {
     margin-bottom: 2%;
     font-size: 1.2rem;
     text-transform: uppercase;
+    color: white;
 }
 input:focus {
     outline: none;
